@@ -8,7 +8,7 @@ This is the official code for the paper "Size-invariance Matters: Rethinking Met
 
 **Authors: Feiran Li,  [Qianqian Xu*](https://qianqianxu010.github.io/), [Shilong Bao](https://statusrank.github.io/), [Zhiyong Yang](https://joshuaas.github.io/), [Runmin Cong](https://rmcong.github.io/), [Xiaochun Cao](https://scst.sysu.edu.cn/members/1401493.htm), [Qingming Huang*](https://people.ucas.ac.cn/~qmhuang)**   	
 
-![image-20240522134358205](C:\Users\21156\AppData\Roaming\Typora\typora-user-images\image-20240522134358205.png)
+![image-20240522134358205](figs/sketch.png)
 
 
 
