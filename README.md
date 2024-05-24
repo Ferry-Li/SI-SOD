@@ -2,7 +2,7 @@
 
 This is the official code for the paper "Size-invariance Matters: Rethinking Metrics and Losses for Imbalanced Multi-object Salient Object Detection" accepted by International Conference on Machine Learning (ICML2024). The paper is available [here](https://arxiv.org/abs/2405.09782).
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2405.09782) [![video](https://img.shields.io/badge/Video-Presentation-F9D371)](https://github.com/huacong/ReconBoost) [![slides](https://img.shields.io/badge/Presentation-Slides-B762C1)](https://github.com/huacong/ReconBoost) [![Website](https://img.shields.io/badge/Project-Website-87CEEB)](https://github.com/huacong/ReconBoost)
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2405.09782) [![video](https://img.shields.io/badge/Video-Presentation-F9D371)](https://github.com/Ferry-Li/SI-SOD) [![slides](https://img.shields.io/badge/Presentation-Slides-B762C1)](https://github.com/Ferry-Li/SI-SOD) [![Website](https://img.shields.io/badge/Project-Website-87CEEB)](https://ferry-li.github.io/SI_SOD/)
 
 **Paper Title: Size-invariance Matters: Rethinking Metrics and Losses for Imbalanced Multi-object Salient Object Detection**
 
