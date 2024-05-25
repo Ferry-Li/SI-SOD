@@ -1,0 +1,42 @@
+# dataset
+dataset:
+  dataset_config: configs/datasets.yaml # path to datasets.yaml
+  data_name: MSOD # test dataset name: [DUTS-TE, ECSSD, DUT-OMRON, HKU-IS, MSOD]. You can expand the set of dataset by adding keys to datasets.yaml
+  transform: True # whether use transform
+  batch_size: 16 # load batch size
+  shuffle: True
+  num_workers: 4
+  pin_memory: True
+  drop_last: False
+  image_size: 384 # height and width of the resized image
+  is_train: False # whether the dataset is used for training
+
+# model
+model:
+  model_config: configs/models.yaml # path to models.yaml
+  model_name: PoolNet # model name: [EDN, PoolNet, ICON, GateNet]
+  
+# save and log
+save_log:
+  save_dir: prediction_results # root path to the saved prediction
+  log_dir: log  # root path to log files
+  save_predict: True  # whether to save the predictions
+  exp_name: EDN-DUTS  # name of the experiment, used for saving models, predictions, logs
+
+# test settings
+settings:
+  seed: 1234 # random seed
+  use_gpu: True
+
+
+# metrics
+# mark the wanted metrics as True
+metrics:
+  mae: True
+  si_mae: True
+  auc: False
+  si_auc: False
+  f: False
+  si_f: False
+  e: False
+

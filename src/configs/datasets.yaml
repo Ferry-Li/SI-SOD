@@ -1,0 +1,22 @@
+DUTS:
+  root_dir: PATH_TO_YOUR_DATASET      # for example, /data/dataset/DUTS
+  train_dir: train
+  test_dir: test
+
+DUTS-TR:
+  root_dir: PATH_TO_YOUR_DATASET 
+  
+DUTS-TE:
+  root_dir: PATH_TO_YOUR_DATASET 
+
+ECSSD:
+  root_dir: PATH_TO_YOUR_DATASET 
+
+DUT-OMRON:
+  root_dir: PATH_TO_YOUR_DATASET 
+
+HKU-IS:
+  root_dir: PATH_TO_YOUR_DATASET 
+
+MSOD:
+  root_dir: PATH_TO_YOUR_DATASET 

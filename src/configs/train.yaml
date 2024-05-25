@@ -1,0 +1,60 @@
+# dataset
+dataset:
+  dataset_config: configs/datasets.yaml # path to datasets.yaml
+  data_name: DUTS # Typically use DUTS as the training set.
+  transform: True # whether use transform
+  batch_size: 18 # load batch size
+  shuffle: True
+  num_workers: 4
+  pin_memory: True
+  drop_last: False
+  image_size: 384 # height and width of the resized image
+  is_train: True # whether the dataset is used for training
+
+# model
+model:
+  model_config: configs/models.yaml # path to models.yaml
+  model_name: PoolNet # model name: [EDN, PoolNet, ICON, GateNet]
+
+# loss
+loss:
+  SI: True # whether to use size-invariant losses
+  losses: BCELoss
+  # for EDN, losses: BCELoss, DiceLoss
+  # for ICON, losses: structure_loss or losses: BCELoss, iou_loss
+  # for GateNet, losses: BCELoss, MAELoss, MSELoss
+  # for PoolNet, losses: BCELoss
+  warm_up: 20 # warm up epochs before using SI-losses
+
+
+# optimizer
+optimizer:
+  optimizer_name: Adam # [Adam, SGD]. You can expand the optimizer set by adding optimizer to optimizer/optimizer.py
+  lr: 5e-5
+  weight_decay: 1e-5
+
+# save and log
+save_log:
+  save_dir: results # path to saved .pth
+  log_dir: log      # path to log
+  exp_name: SI-PoolNet-w20   # name of the expeirment, used when saving models and logs
+
+# training settings
+settings:
+  epoch: 100  # max training epoch
+  seed: 1234  # random seed
+  iter_size: 1  # update the network parameters every "iter_size" step(s)
+  use_gpu: True
+  save_epoch: 10 # save the .pth every (save_epoch) epochs
+  eval_epoch: 10 # set as 0 to remove evaluation during training
+
+# metrics
+# mark the wanted metrics as True
+metrics:
+  mae: True
+  si_mae: True
+  auc: False
+  si_auc: False
+  f: False
+  si_f: False
+  e: False

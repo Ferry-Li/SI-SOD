@@ -1,0 +1,29 @@
+EDN:
+  arch: resnet50 # [resnet, mobilenetv2, p2t]
+  pretrained: True # Whether to use a pretrained checkpoint. Set to True when tesing!
+  ckpt_path: $Path to your pretrained checkpoint.
+  freeze_s1: True # EDN's setting for resnet50
+  # paths to pretrained backbones. The path can be None if you don't use the specific backbone.
+  resnet_path: $Path to pretrained resnet50.
+  mobilenetv2_path: $Path to pretrained mobilenetv2.
+  p2t_path: $Path to pretrained p2t.
+
+ICON:
+  pretrained: False
+  ckpt_path: $Path to your pretrained checkpoint.
+  resnet_path: # paths to pretrained backbones。
+  CycleMLP_path: None
+  pvt_path: None
+  swin_path: None
+  model_name: ICON-R # [ICON-R, ICON-S, ICON-P, ICON-V, ICON-M]
+
+GateNet:
+  pretrained: False
+  ckpt_path: $Path to your pretrained checkpoint.
+  resnet_path: # paths to pretrained backbones
+PoolNet:
+  backbone: resnet # [vgg, resnet]
+  pretrained: False
+  ckpt_path: $Path to your pretrained checkpoint.
+  resnet_path: # paths to pretrained backbones。
+  vgg_path: None

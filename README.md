@@ -95,6 +95,8 @@ python run.py --config configs/train.yaml
 
 Specifically, we provide a well-trained checkpoint of (Size-Invariant) EDN and PoolNet [here](https://drive.google.com/drive/folders/1kBqlebAvq4heO5A-Lve5UJQpDd6Oiy0d?usp=sharing).
 
+Also, the pre-trained backbone used during training can be downloaded [here](https://drive.google.com/drive/folders/1W4UskthRQ2G3DNntFlhIJMICumlFbmOI?usp=sharing).
+
 ## Evaluation
 
 The testing config file is stored at `configs/test.yaml`, where you can modify the settings of dataset, model, evaluation metrics, and testing process. Detailed description of each parameter is commented in the config file. Please carefully read and check the config file before testing.
