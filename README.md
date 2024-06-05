@@ -6,7 +6,7 @@ This is the official code for the paper "Size-invariance Matters: Rethinking Met
 
 **Paper Title: Size-invariance Matters: Rethinking Metrics and Losses for Imbalanced Multi-object Salient Object Detection**
 
-**Authors: [Feiran Li](https://scholar.google.com/citations?user=vPStt7cAAAAJ&hl=zh-CN),  [Qianqian Xu*](https://qianqianxu010.github.io/), [Shilong Bao](https://statusrank.github.io/), [Zhiyong Yang](https://joshuaas.github.io/), [Runmin Cong](https://rmcong.github.io/), [Xiaochun Cao](https://scst.sysu.edu.cn/members/1401493.htm), [Qingming Huang*](https://people.ucas.ac.cn/~qmhuang)**   	
+**Authors: [Feiran Li](https://ferry-li.github.io/),  [Qianqian Xu*](https://qianqianxu010.github.io/), [Shilong Bao](https://statusrank.github.io/), [Zhiyong Yang](https://joshuaas.github.io/), [Runmin Cong](https://rmcong.github.io/), [Xiaochun Cao](https://scst.sysu.edu.cn/members/1401493.htm), [Qingming Huang*](https://people.ucas.ac.cn/~qmhuang)**   	
 
 ![image-20240522134358205](figs/sketch.png)
 
