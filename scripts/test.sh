@@ -1,1 +1,1 @@
-python run.py --condif configs/test.yaml --test
+python run.py --config configs/test.yaml --test
